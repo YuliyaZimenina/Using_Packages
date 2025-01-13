@@ -12,7 +12,7 @@ public class Book {
 
     public void showInfo(){
         System.out.println("Title: " + title);
-        System.out.println("Aythor: " + author);
+        System.out.println("Author: " + author);
         System.out.println("Publication data:" + publicationDate);
         System.out.println();
     }

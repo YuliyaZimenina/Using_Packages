@@ -1,8 +1,9 @@
 package bookpack_use;
+import bookpack.Book;
 // Using a class from another package
 class UseBook {
     public static void main(String[] args) {
-        bookpack.Book[] books = new bookpack.Book[5];
+        Book[] books = new bookpack.Book[5];
 
         books[0] = new bookpack.Book("Nightfall","Isaac Asimov",1941);
         books[1] = new bookpack.Book("West of Eden","Harry Harrison",1981);
